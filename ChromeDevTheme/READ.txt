@@ -1,0 +1,3 @@
+Mac: ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
+
+PC: C:UsersYourUsernameAppDataLocalGoogleChromeUser DataDefaultUser StyleSheetsCustom.css ~Thanks to @VSC

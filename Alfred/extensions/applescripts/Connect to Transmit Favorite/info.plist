@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<false/>
+	<key>background</key>
+	<false/>
+	<key>category</key>
+	<string>APPLESCRIPTS</string>
+	<key>command</key>
+	<string>on alfred_script(q)
+  tell application "Transmit"
+	activate
+	set myFave to item 1 of (favorites whose name is q)
+	tell current tab of (make new document at end)
+		connect to myFave
+	end tell
+  end tell
+end alfred_script</string>
+	<key>keyword</key>
+	<string>tran</string>
+	<key>subtitle</key>
+	<string>tran [Name of the Favorite]</string>
+	<key>title</key>
+	<string>Connect to Transmit Favorite</string>
+</dict>
+</plist>

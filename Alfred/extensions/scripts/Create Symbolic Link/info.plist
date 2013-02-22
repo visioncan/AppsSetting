@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<true/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string>#Desc:	Create symbolic link to item
+#Use:	N/A
+#Ex:	N/A
+
+FOLDERNAME=$(basename {query})
+ln -s {query} ~/Desktop/$FOLDERNAME
+echo "New Symlink '$FOLDERNAME' is available on your desktop"</string>
+	<key>escapequery</key>
+	<true/>
+	<key>escapequerybackquotes</key>
+	<false/>
+	<key>escapequeryquotes</key>
+	<true/>
+	<key>growloutput</key>
+	<true/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>sym</string>
+	<key>logging</key>
+	<false/>
+	<key>silent</key>
+	<true/>
+	<key>subtitle</key>
+	<string>Create A Symbolic Link To The Selected File</string>
+	<key>title</key>
+	<string>Create Symbolic Link</string>
+</dict>
+</plist>

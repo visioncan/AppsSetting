@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<true/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string>diskutil repairPermissions /</string>
+	<key>disabled</key>
+	<false/>
+	<key>escapequery</key>
+	<true/>
+	<key>escapequerybackquotes</key>
+	<true/>
+	<key>escapequerybrackets</key>
+	<true/>
+	<key>escapequeryquotes</key>
+	<true/>
+	<key>escapequerysemicolons</key>
+	<true/>
+	<key>growloutput</key>
+	<false/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>rep</string>
+	<key>logging</key>
+	<false/>
+	<key>parameter</key>
+	<integer>1</integer>
+	<key>silent</key>
+	<false/>
+	<key>subtitle</key>
+	<string>repair Permissions</string>
+	<key>title</key>
+	<string>修復磁碟權限</string>
+</dict>
+</plist>

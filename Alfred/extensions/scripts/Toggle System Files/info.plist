@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<false/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string>CURRENTLY=`defaults read com.apple.finder AppleShowAllFiles`
+
+if [ $CURRENTLY == TRUE ]; then
+	defaults write com.apple.finder AppleShowAllFiles FALSE
+	echo "System Files are now hidden"
+else
+	defaults write com.apple.finder AppleShowAllFiles TRUE
+	echo "System Files are now visible"
+fi
+
+killall Finder</string>
+	<key>escapequery</key>
+	<false/>
+	<key>escapequerybackquotes</key>
+	<false/>
+	<key>escapequerybrackets</key>
+	<false/>
+	<key>escapequeryquotes</key>
+	<false/>
+	<key>escapequerysemicolons</key>
+	<false/>
+	<key>growloutput</key>
+	<true/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>toggle</string>
+	<key>logging</key>
+	<false/>
+	<key>silent</key>
+	<true/>
+	<key>subtitle</key>
+	<string>Toggle the view state of  system files</string>
+	<key>title</key>
+	<string>Toggle System Files</string>
+</dict>
+</plist>

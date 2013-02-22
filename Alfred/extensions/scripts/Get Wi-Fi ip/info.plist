@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<false/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string>IP=$(ipconfig getifaddr en1 | tr -d '\n')
+echo "Wifi port IP address successfully &amp; copy";
+echo $IP| pbcopy
+echo $IP</string>
+	<key>disabled</key>
+	<false/>
+	<key>escapedollar</key>
+	<false/>
+	<key>escapequery</key>
+	<true/>
+	<key>escapequerybackquotes</key>
+	<true/>
+	<key>escapequerybrackets</key>
+	<true/>
+	<key>escapequeryquotes</key>
+	<true/>
+	<key>escapequerysemicolons</key>
+	<true/>
+	<key>growloutput</key>
+	<true/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>ip-wifi</string>
+	<key>logging</key>
+	<false/>
+	<key>multifileargs</key>
+	<false/>
+	<key>parameter</key>
+	<integer>0</integer>
+	<key>silent</key>
+	<true/>
+	<key>subtitle</key>
+	<string>Get wifi IP address and copy</string>
+	<key>title</key>
+	<string>Get wifi IP</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<false/>
+	<key>category</key>
+	<string>WORKFLOWS</string>
+	<key>disabled</key>
+	<false/>
+	<key>keyword</key>
+	<string>resizeios</string>
+	<key>parameter</key>
+	<integer>0</integer>
+	<key>subtitle</key>
+	<string>Resize image and remove @2x for iOS</string>
+	<key>title</key>
+	<string>Resize 50% Remove @2x</string>
+	<key>workflow</key>
+	<string>/Users/visioncan/Library/Services/Resize50%_Remove@2x.workflow</string>
+</dict>
+</plist>
