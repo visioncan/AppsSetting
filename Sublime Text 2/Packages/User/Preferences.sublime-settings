@@ -1,0 +1,11 @@
+{
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".sass-cache"], 
+	"color_scheme": "Packages/Color Scheme - User/Tomorrow Night - Eighties - vcan.tmtheme",
+	"font_size": 14.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"soda_classic_tabs": true,
+	"theme": "Soda Light.sublime-theme"
+}
