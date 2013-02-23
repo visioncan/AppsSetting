@@ -1,0 +1,34 @@
+[
+	{ "keys": ["super+f7"], "command": "build" },
+	{ "keys": [""], "command": "next_result" },
+	{ "keys": [""], "command": "prev_result" },
+	{ "keys": ["f4"], "command": "toggle_side_bar" },
+	{ "keys": ["super+f4"], "command": "toggle_minimap" },
+
+	{ "keys": [""], "command": "soft_undo" },
+	{ "keys": ["super+u"], "command": "upper_case" },
+	{ "keys": ["super+l"], "command": "lower_case" },
+
+	{ "keys": ["alt+space"], "command": "auto_complete" },
+	{ "keys": ["alt+space"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+	// { "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}\n"}, "context":
+	//     [
+	//         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	//         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+	//         { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true }
+	//     ]
+	// },
+	// { "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t${0:$SELECTION}\n}\n"}, "context":
+	//     [
+	//         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	//         { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+	//     ]
+	// },
+	{ "keys": [":"], "command": "insert", "args": {"characters": ": "} }
+]
